@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+numpy
+PyPDF2
+openai
+python-multipart
+
+# Note: `sentence-transformers` and `torch` are omitted to speed local setup.
+# The app falls back to a lightweight embedding hash if `sentence-transformers`
+# isn't available. To enable full embeddings later, install `sentence-transformers`
+# and a matching `torch` wheel in the venv.

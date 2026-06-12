@@ -1,0 +1,15 @@
+# Exclude Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude common large files and folders
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.dmg
+*.exe
+build/
+dist/
