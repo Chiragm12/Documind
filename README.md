@@ -6,7 +6,6 @@ An AI-powered document analysis and chat platform built with Next.js, FastAPI, S
 *   **Automatic Summarization**: Instantly generates a concise 3-4 sentence summary of any uploaded PDF.
 *   **Interactive Mind Maps**: Uses D3.js to dynamically render a visual mind map representing key concepts extracted from your documents.
 *   **Dual LLM Engine Support**: Seamlessly switch between **OpenAI (ChatGPT)** and **Google Gemini** (via OpenAI-compatible endpoint).
-*   **Offline/Simulation Mode**: Don't have an API key? The application will fall back to local extractive summarization, TF-IDF concept mapping, and mock RAG simulation mode so you can test all features offline.
 *   **Local Hybrid Semantic Search**: Combines a local lightweight embedding database with NumPy-powered cosine similarity. Supports upgrading to high-fidelity semantic embeddings via `SentenceTransformer` (`all-MiniLM-L6-v2`).
 *   **SSE Streaming Chat**: Real-time streaming answers for a fluid, responsive chat experience.
 *   **Conversational Memory**: Remembers context across turns in the chat to support natural follow-up questions.
