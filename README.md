@@ -1,12 +1,11 @@
 # DocuMind 🧠📄
-An AI-powered document analysis and chat platform built with Next.js, FastAPI, SQLite, and NumPy. Upload PDFs, automatically generate summaries and interactive mind maps, and chat with your documents using OpenAI's ChatGPT, Google Gemini, or a fully functional offline simulation mode.
+An AI-powered document analysis and chat platform built with Next.js, FastAPI, SQLite, and NumPy. Upload PDFs, automatically generate summaries and interactive mind maps, and chat with your documents using OpenAI's ChatGPT, Google Gemini, 
 ---
 ## 🌟 Features
 *   **Multi-Document Chat Sessions**: Create separate sessions to upload and chat with multiple PDF documents simultaneously.
 *   **Automatic Summarization**: Instantly generates a concise 3-4 sentence summary of any uploaded PDF.
 *   **Interactive Mind Maps**: Uses D3.js to dynamically render a visual mind map representing key concepts extracted from your documents.
-*   **Dual LLM Engine Support**: Seamlessly switch between **OpenAI (ChatGPT)** and **Google Gemini** (via OpenAI-compatible endpoint).
-*   **Local Hybrid Semantic Search**: Combines a local lightweight embedding database with NumPy-powered cosine similarity. Supports upgrading to high-fidelity semantic embeddings via `SentenceTransformer` (`all-MiniLM-L6-v2`).
+*   **Local Hybrid Semantic Search**: Combines a local lightweight embedding database with NumPy-powered cosine similarity. Supports upgrading to high-fidelity semantic embeddings via `SentenceTransformer` 
 ---
 ## 🛠️ Tech Stack
 ### Frontend
